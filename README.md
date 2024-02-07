@@ -78,9 +78,12 @@ You can use is_notebook function to check the environment is notebook or not
 current_env_notebook = is_notebook())
 </code></div></div></pre>
 
-## Contributing
+## Contributing & Acknowledgements
 
 Thanks for professor Dr. Lee, Soo-Hong who encourage me to upload the project.
+
+
+This projects are side-project of the National Research Foundation of Korea, ‘Development of a 2-axis ankle exoskeleton robot to identify intentions using deep learning-based EMG images’ (No.2021R1I1A205215811)
 
 ## License
 

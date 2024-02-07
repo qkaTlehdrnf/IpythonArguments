@@ -1,0 +1,6 @@
+python setup.py sdist bdist_wheel
+
+twine upload dist/* 
+
+
+항상 distil에 이전 버전의 파일이 있는지 확인!
