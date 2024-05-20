@@ -2,17 +2,18 @@ from setuptools import setup, find_packages
 
 setup(
     name='ipython_args',  # A suitable name for your package
-    version='1.0.2',              # Starting with version 1.0.0
+    version='1.0.3',              # Starting with version 1.0.0
     author='Kim, Won-Joong',           # Replace with your name
     author_email='wonjoong11@yonsei.ac.kr',  # Replace with your email
     description='A utility for seamless argument parsing in IPython notebooks and Python scripts.',  # Short description
-    long_description=open('README.md').read(),
+    long_description=open('README.md',encoding='utf-8').read(),
     long_description_content_type='text/markdown',
     url='https://github.com/qkaTlehdrnf/IpythonArguments',  # Replace with your repository URL
     packages=find_packages(exclude=('tests', 'docs', 'upload_pypi_package.txt')),
     install_requires=[
         'easydict',  # The code depends on easydict
         'ipython',   # Assuming IPython is a dependency, given the use of get_ipython
+        'ipykernel'
     ],
     classifiers=[
         'Development Status :: 4 - Beta',   # Assuming the project is in a beta stage
